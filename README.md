@@ -93,3 +93,26 @@ Facilitates communication between guests and property owners through a built-in 
 Implementing a CI/CD pipeline is important for maintaining code quality, catching issues early, and delivering updates to users faster. For this project, tools such as **GitHub Actions** can be used to automate testing and deployment workflows, while **Docker** can help create consistent environments for development and production.
 
 By using CI/CD, the project benefits from faster feedback, reliable releases, and a more streamlined development process.
+
+# UI/UX Design Planning
+
+## Design Goals
+The main goals for the UI/UX design are to create an intuitive, visually appealing, and responsive interface that makes it easy for users to browse, book, and manage properties. The design will focus on simplicity, accessibility, and seamless navigation to enhance the overall user experience.
+
+## Key Features to Implement
+- Clear navigation and layout for easy access to all sections
+- Responsive design for optimal viewing on all devices
+- Consistent branding and visual elements
+- Fast and simple booking process
+- User feedback through notifications and confirmations
+
+## Primary Pages
+
+| Page Name                | Description                                                                                   |
+|--------------------------|-----------------------------------------------------------------------------------------------|
+| Property Listing View    | Displays a list of available properties with filters and search options for easy browsing.    |
+| Listing Detailed View    | Shows detailed information about a selected property, including images, amenities, and reviews.|
+| Simple Checkout View     | Provides a streamlined booking form where users can review details and complete their booking. |
+
+## Importance of User-Friendly Design
+A user-friendly design is crucial in a booking system to ensure users can quickly find and reserve properties without confusion or frustration. Good UI/UX increases user satisfaction, reduces errors, and encourages repeat usage, which is essential for the success of the platform.
