@@ -78,3 +78,11 @@ Provides users with the ability to search for properties based on location, pric
 
 ## Messaging System
 Facilitates communication between guests and property owners through a built-in messaging platform. This ensures that users can ask questions and clarify details before making a booking.
+
+# API Security
+ API security is needed to protect sensitive user data, prevent anauthorized access and ensure the integrity of the platform. Several key security measures will be implemented including:
+ - Authentication to ensure tha only regostered users can access protected endpoints by verifying their identities using secure login mechanisms such as Json Web Tokens.
+ - Authorization will ensure a role based access controls to ensure that users can only perform activities permitted for their role.
+ - Rate Limiting will limit the number of requests a user or IP address can make in a given time frame. This will prevent abuse, such as brute-force attacks or denial-of-service attempts, ensuring the API remains available and responsive.
+ - Data validation will ensure that all data is validated and sanitized to prevent commmon vulnerabilities such SQL injections anc Cross site scripting (XSS).
+ - Secure payment will protect sensitive payment information using secure PCI-compliant third-party services to protect user's financial data and reduce the risk of fraud.
