@@ -15,3 +15,24 @@ The backend developer will work to ensure that the software architect is current
 
 ## Frontend Developer
 The frontend developer will work to ensure that the software is practical and that the visuals are appealing to the users, maximizing the user interaction with the software.
+
+# Technology Stack
+## Django
+A high-level Python web framework that encourages rapid development and clean, pragmatic design for building APIs. It handles backend logic, routing, authentication, and database operations.
+
+## Python
+A versatile, high-level programming language used for server-side development, scripting, and data processing. Django is built with Python.
+
+## Vite + Vue:
+
+### Vite
+A fast frontend build tool that provides instant server start and lightning-fast hot module replacement for modern web projects.
+### Vue
+A progressive JavaScript framework for building user interfaces, especially single-page applications (SPAs).
+HTML: The standard markup language for creating web pages and structuring content on the web.
+
+## CSS
+A stylesheet language used to describe the presentation and layout of HTML elements on a web page.
+
+## SQL
+A domain-specific language used to manage and query relational databases, storing and retrieving application data.
