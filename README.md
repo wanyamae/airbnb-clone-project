@@ -116,3 +116,48 @@ The main goals for the UI/UX design are to create an intuitive, visually appeali
 
 ## Importance of User-Friendly Design
 A user-friendly design is crucial in a booking system to ensure users can quickly find and reserve properties without confusion or frustration. Good UI/UX increases user satisfaction, reduces errors, and encourages repeat usage, which is essential for the success of the platform.
+
+# UI/UX Design Planning
+
+## Color Styles
+- **Primary Color:** #FF5A5F (Airbnb Red)
+- **Secondary Color:** #484848 (Dark Gray)
+- **Accent Color:** #00A699 (Teal)
+- **Background Color:** #FFFFFF (White)
+- **Text Color:** #222222 (Almost Black)
+- *(Adjust these based on your Figma design if different)*
+
+## Typography
+- **Font Family:** 'Montserrat', sans-serif
+- **Font Weights:** 400 (Regular), 600 (Semi-Bold), 700 (Bold)
+- **Font Sizes:** 12px, 14px, 16px, 20px, 24px, 32px
+
+## Importance of Identifying Design Properties
+Identifying color styles and typography in a mockup design ensures consistency and coherence across the application. It helps developers and designers maintain a unified look and feel, improves usability, and speeds up the implementation process by providing clear guidelines.
+
+---
+
+# Project Roles and Responsibilities
+
+| Role                | Responsibilities                                                                                   |
+|---------------------|---------------------------------------------------------------------------------------------------|
+| **Project Manager** | Oversees project progress, manages timelines, coordinates between teams, and ensures deliverables. |
+| **Frontend Developers** | Build the user interface using Vue, implement responsive design, and connect to backend APIs.   |
+| **Backend Developers**  | Develop server-side logic with Django/Python, manage databases, and create secure APIs.         |
+| **Designers**           | Create UI/UX mockups (e.g., in Figma), define visual styles, and ensure a user-friendly design.|
+| **QA/Testers**          | Test features, report bugs, and ensure the application meets quality standards.                 |
+| **DevOps Engineers**    | Set up CI/CD pipelines, manage deployments, and maintain infrastructure (e.g., Docker, GitHub Actions).|
+| **Product Owner**       | Defines project vision, prioritizes features, and ensures the product meets user needs.         |
+| **Scrum Master**        | Facilitates Agile processes, removes blockers, and ensures the team follows best practices.     |
+
+Each role is essential for delivering a high-quality, reliable, and user-friendly product.
+
+---
+
+# UI Component Patterns
+
+- **Navbar:** Provides navigation links to main sections such as Home, Listings, Bookings, and Profile. Ensures users can easily move through the application.
+- **Property Card:** Displays key information about a property (image, title, price, rating) in a compact, reusable format for listing pages.
+- **Footer:** Contains site-wide links, contact information, and legal disclaimers, providing closure and additional navigation at the bottom of each page.
+
+Additional components may include buttons, forms, modals, and review cards, all designed for reusability and consistency.
