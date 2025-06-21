@@ -58,3 +58,23 @@ The Airbnb clone project will have tables such as Users, Listings, Bookings and 
 - Listings: `listing_id, title, description, price, user_id (owner)`
 - Bookings: `booking_id, user_id, listing_id, start_date, end_date`
 - Reviews: `review_id, user_id, listing_id, rating, comment`
+
+# Feature Breakdown
+
+## User Management
+Allows users to register, log in, and manage their profiles securely. This feature ensures that only authenticated users can access certain functionalities, such as booking properties or leaving reviews.
+
+## Property Management
+Enables property owners to list new properties, update details, and manage availability. This feature is essential for keeping the platform’s listings up-to-date and providing users with accurate information.
+
+## Booking System
+Lets users search for available properties, make reservations, and manage their bookings. This system handles date selection, availability checks, and booking confirmations, ensuring a smooth reservation process.
+
+## Review and Rating System
+Allows guests to leave reviews and ratings for properties they have stayed in. This feature helps maintain trust and transparency within the platform by providing feedback for future guests and property owners.
+
+## Search and Filtering
+Provides users with the ability to search for properties based on location, price, amenities, and other criteria. This makes it easier for users to find listings that match their preferences.
+
+## Messaging System
+Facilitates communication between guests and property owners through a built-in messaging platform. This ensures that users can ask questions and clarify details before making a booking.
