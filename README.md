@@ -36,3 +36,25 @@ A stylesheet language used to describe the presentation and layout of HTML eleme
 
 ## SQL
 A domain-specific language used to manage and query relational databases, storing and retrieving application data.
+
+# Database Design
+The Airbnb clone project will have tables such as Users, Listings, Bookings and Reviews
+
+## Important Fields (across main tables)
+- User ID (in Users table): Uniquely identifies each user.
+- Listing ID (in Listings table): Uniquely identifies each property/listing.
+- Booking ID (in Bookings table): Uniquely identifies each booking/reservation.
+- Review ID (in Reviews table): Uniquely identifies each review.
+
+## Relationships
+- Users can create multiple Listings (one-to-many).
+- Users can make multiple Bookings (one-to-many).
+- Listings can have multiple Bookings (one-to-many).
+- Users can leave multiple Reviews for Listings (one-to-many).
+- Bookings and Reviews are linked to both Users and Listings via foreign keys.
+
+## Example fields
+- Users: `user_id, name, email, password`
+- Listings: `listing_id, title, description, price, user_id (owner)`
+- Bookings: `booking_id, user_id, listing_id, start_date, end_date`
+- Reviews: `review_id, user_id, listing_id, rating, comment`
