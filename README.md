@@ -86,3 +86,10 @@ Facilitates communication between guests and property owners through a built-in 
  - Rate Limiting will limit the number of requests a user or IP address can make in a given time frame. This will prevent abuse, such as brute-force attacks or denial-of-service attempts, ensuring the API remains available and responsive.
  - Data validation will ensure that all data is validated and sanitized to prevent commmon vulnerabilities such SQL injections anc Cross site scripting (XSS).
  - Secure payment will protect sensitive payment information using secure PCI-compliant third-party services to protect user's financial data and reduce the risk of fraud.
+
+ # CI/CD Pipeline
+ CI/CD (Continuous Integration and Continuous Deployment) pipelines automate the process of building, testing, and deploying code changes. This ensures that new features and bug fixes are integrated smoothly, tested automatically, and deployed quickly, reducing manual errors and improving development efficiency.
+
+Implementing a CI/CD pipeline is important for maintaining code quality, catching issues early, and delivering updates to users faster. For this project, tools such as **GitHub Actions** can be used to automate testing and deployment workflows, while **Docker** can help create consistent environments for development and production.
+
+By using CI/CD, the project benefits from faster feedback, reliable releases, and a more streamlined development process.
